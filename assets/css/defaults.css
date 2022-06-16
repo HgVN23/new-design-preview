@@ -9,7 +9,7 @@
 		--bg: #171717;
 		--hover-color: #1d4ed8;
 		--border-light: #d7d7d7;
-		--bg-light: #f3f3f3;
+		--bg-light: #e6eff4;
 	}
 	* {
 		cursor: none;
@@ -103,7 +103,7 @@
 /*==================================================*/
 /*Theme*/
 	.themeLight {
-		background-color: white;
+		background-color: #f3f3f3;
 	}
 	.themeLight * {
 		color: black;
@@ -117,7 +117,7 @@
 		border-color: var(--border-light);
 	}
 	.themeLight::-webkit-scrollbar {
-		background-color: white;
+		background-color: #f3f3f3;
 	}
 	.themeLight::-webkit-scrollbar-thumb {
 		background-color: var(--bg-light);
@@ -127,7 +127,7 @@
 		border: 2px solid var(--hover-color);
 	}
 	.themeLight .sidebar::-webkit-scrollbar {
-		background-color: white;
+		background-color: #f3f3f3;
 	}
 	.themeLight .sidebar::-webkit-scrollbar-thumb {
 		background-color: var(--bg-light);
@@ -162,17 +162,15 @@
 		background-color: var(--hover-color);
 	}
 	.themeLight .sidebar {
-		background-color: white;
+		background-color: #f3f3f3;
 		border-right-color: var(--border-light);
 	}
 	.themeLight .sidebarTitle {
 		border-bottom-color: var(--border-light);
 	}
 	.themeLight .sidebarLine {
-		outline-color: var(--border-light);
-	}
-	.themeLight .sidebar li {
-		outline-color: var(--border-light);
+		background-color: var(--border-light);
+		border-color: var(--border-light);
 	}
 	.themeLight .sidebarEnd {
 		border-top-color: var(--border-light);
@@ -180,25 +178,15 @@
 	.themeLight .sidebarBlur {
 		background: rgba(222, 222, 222, .80);
 	}
-	.themeLight .dropdown::before {
-		color: red;
-	}
-	.themeLight .dropdownActive::before {
-		color: lime;
-	}
 	.themeLight .contentHeader {
-		background-color: var(--bg-light);
-		border-color: var(--border-light);
-	}
-	.themeLight .contentBox {
-		background-color: var(--bg-light);
 		border-color: var(--border-light);
 	}
 	.themeLight .contentTitle {
 		border-bottom-color: var(--border-light);
 	}
-	.themeLight .textSyntax {
-		color: #00bec1;
+	.themeLight .textCommand, .themeLight .textSyntax {
+		background-color: var(--bg-light);
+		border-color: var(--border-light);
 	}
 	.themeLight footer {
 		background-color: var(--bg-light);
@@ -430,7 +418,7 @@
 		width: 16px;
 		border-bottom: 3px solid lime;
 		position: absolute;
-		transform: translateX(-20px) translateY(8px);
+		transform: translateX(-20px) translateY(7px);
 	}
 	.dropdownEnd {
 		border-bottom: 3px solid lime;
@@ -451,6 +439,13 @@
 	.textLink:active {
 		color: yellow;
 		text-decoration: underline;
+	}
+	.textCommand, .textSyntax {
+		background-color: var(--bg);
+		border: var(--border);
+		border-width: 1px;
+		padding: 2px;
+		line-height: 23px;
 	}
 	.textCommand {
 		color: #c67d4e;

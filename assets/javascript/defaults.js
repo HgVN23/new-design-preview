@@ -4,8 +4,8 @@ function defaults() {
 	for(let script of scriptList) {
 		var scriptCreate = document.createElement('script');
 		scriptCreate.src = `https://hgvn23.github.io/new-design-preview/assets/javascript/${script}.js`;
-// 		scriptCreate.src = `../assets/javascript/${script}.js`;
-// 		scriptCreate.src = `assets/javascript/${script}.js`;
+		// scriptCreate.src = `../assets/javascript/${script}.js`;
+		// scriptCreate.src = `assets/javascript/${script}.js`;
 		document.getElementById("script").appendChild(scriptCreate);
 	};
 	// ======================================================================
