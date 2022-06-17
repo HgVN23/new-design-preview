@@ -12,10 +12,10 @@ const ads = `
 `;
 
 // Ads
-const adsCreate = document.createElement('section');
+const adsCreate = document.createElement('div');
 adsCreate.classList.add('contentBox');
 adsCreate.innerHTML = ads;
-document.getElementsByTagName('article')[0].appendChild(adsCreate);
+document.getElementsByTagName('body')[0].appendChild(adsCreate);
 
 for (var i = 0; i < 3; i++)
 	(adsbygoogle = window.adsbygoogle || []).push({});
