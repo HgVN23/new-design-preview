@@ -421,9 +421,6 @@
 		position: absolute;
 		transform: translateX(-20px) translateY(7px);
 	}
-	.dropdownTab {
-		margin-left: 30px;
-	}
 	.dropdownEnd {
 		border-bottom: 3px solid lime;
 		border-left: 3px solid lime;
@@ -736,19 +733,14 @@
 		padding: 3px;
 	}
 	.dropdownActive::before {
-		transform: rotate(45deg) translateX(-11.8px) translateY(11px);
+		transform: rotate(45deg) translateX(-10px) translateY(12px);
 	}
-	.dropdownTab {
+	.dropdownStart {
 		margin-left: 5px;
 	}
-	.dropdownTab::before {
+	.dropdownStart::before {
 		border-width: 2px;
 		transform: translateY(-8px);
-	}
-	.dropdownTab .contentText::before {
-		width: 14px;
-		border-width: 2px;
-		transform: translateX(-20px) translateY(5px);
 	}
 	.dropdownEnd {
 		border-width: 0 0 2px 2px;
@@ -761,13 +753,16 @@
 	.textNote {
 		cursor: zoom-in;
 	}
+	.textNote:hover {
+		font-size: 1.125rem;
+	}
 	.textWip {
 		cursor: progress;
 	}
 	.contentTitle {
 		font-size: 1.5rem;
 	}
-	.contentText {
+	.contentText, .dropdownText {
 		margin-top: 12px;
 		font-size: .75rem;
 	}

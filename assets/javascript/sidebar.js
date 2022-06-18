@@ -82,27 +82,27 @@ const sidebar = `
 				<a class="dropdownText textLink" href="https://hgvn23.github.io/commands/xp.html">/xp</a>
 				<div class="dropdownEnd"></div>
 			</div></div>
-			<div class="sidebarDropdown">
-				<p class="contentText dropdown">Danh sách Id</p>
-				<div class="dropdownStart dropdownHide"><div>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/animationId.html">Animation</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/blockStateId.html">Block state</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/componentId.html">Component</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/damageId.html">Damage</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/effectId.html">Effect</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/enchantmentId.html">Enchantment</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/eventId.html">Event</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/fogId.html">Fog</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/gameruleId.html">Gamerule</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/lootId.html">Loot</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/particleId.html">Particle</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/rawMessageId.html">Raw message</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/target.html">Target</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/soundId.html">Sound</a>
-					<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/trackId.html">Track</a>
-					<div class="dropdownEnd"></div>
-				</div></div>
-			</div>
+		</div>
+		<div class="sidebarDropdown">
+			<p class="contentText dropdown">Danh sách Id</p>
+			<div class="dropdownStart dropdownHide"><div>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/animationId.html">Animation</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/blockStateId.html">Block state</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/componentId.html">Component</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/damageId.html">Damage</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/effectId.html">Effect</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/enchantmentId.html">Enchantment</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/eventId.html">Event</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/fogId.html">Fog</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/gameruleId.html">Gamerule</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/lootId.html">Loot</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/particleId.html">Particle</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/rawMessageId.html">Raw message</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/target.html">Target</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/soundId.html">Sound</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/danhSachId/trackId.html">Track</a>
+				<div class="dropdownEnd"></div>
+			</div></div>
 		</div>
 		<div class="sidebarDropdown">
 			<p class="contentText dropdown">Thông tin liên quan</p>
