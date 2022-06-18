@@ -387,12 +387,12 @@
 		padding: 4px;
 		position: absolute;
 		transition: .3s;
-		transform: rotate(-45deg) translateX(-15px) translateY(-9px);
+		transform: rotate(-45deg) translateX(-17px) translateY(-7px);
 	}
 	.dropdownActive::before {
 		content: "";
 		border-color: lime;
-		transform: rotate(45deg) translateX(-11.8px) translateY(11px);
+		transform: rotate(45deg) translateX(-7.8px) translateY(15.2px);
 	}
 	.dropdownHide {
 		display: none;
@@ -419,7 +419,7 @@
 		width: 16px;
 		border-bottom: 3px solid lime;
 		position: absolute;
-		transform: translateX(-20px) translateY(7px);
+		transform: translateX(-20px) translateY(11px);
 	}
 	.dropdownEnd {
 		border-bottom: 3px solid lime;
@@ -513,7 +513,7 @@
 		margin-top: 16px;
 		display: block;
 		letter-spacing: 0.6px;
-		line-height: 18px;
+		line-height: 1.6;
 	}
 	/*.contentText::before {
 		content: "";
@@ -731,9 +731,10 @@
 	.dropdown::before {
 		border-width: 0 2px 2px 0;
 		padding: 3px;
+		transform: rotate(-45deg) translateX(-15px) translateY(-7px);
 	}
 	.dropdownActive::before {
-		transform: rotate(45deg) translateX(-10px) translateY(12px);
+		transform: rotate(45deg) translateX(-9px) translateY(13.2px);
 	}
 	.dropdownStart {
 		margin-left: 5px;
@@ -741,6 +742,9 @@
 	.dropdownStart::before {
 		border-width: 2px;
 		transform: translateY(-8px);
+	}
+	.dropdownText::before {
+		transform: translateX(-20px) translateY(8px);
 	}
 	.dropdownEnd {
 		border-width: 0 0 2px 2px;
