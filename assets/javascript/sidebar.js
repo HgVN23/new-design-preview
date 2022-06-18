@@ -130,7 +130,7 @@ const sidebar = `
 
 const sidebarCreate = document.createElement('aside');
 sidebarCreate.innerHTML = sidebar;
-body.insertBefore(sidebarCreate, body.children[2]);
+document.querySelector("body").insertBefore(sidebarCreate, document.querySelector("body").children[2]);
 
 const sidebarIcon = document.querySelector(".sidebarIcon");
 sidebarIcon.addEventListener("click", sidebarOpen);

@@ -1,5 +1,3 @@
-const body = document.getElementsByTagName('body')[0];
-
 const header = `
 	<div class="sidebarIcon sidebarIconClose"></div>
 	<a class="logoWiki" href="https://hgvn23.github.io"></a>
@@ -16,5 +14,4 @@ const header = `
 
 const headerCreate = document.createElement('header');
 headerCreate.innerHTML = header;
-
-body.insertBefore(headerCreate, body.children[1]);
+document.querySelector("body").insertBefore(headerCreate, document.querySelector("body").children[1]);

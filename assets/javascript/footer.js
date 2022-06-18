@@ -16,5 +16,5 @@ const footer = `
 
 const footerCreate = document.createElement('footer');
 footerCreate.innerHTML = footer;
-document.getElementsByTagName('body')[0].appendChild(footerCreate);
+document.querySelector("body").appendChild(footerCreate);
 document.querySelector(".year").innerHTML = new Date().getFullYear();

@@ -3,9 +3,9 @@ const scriptList = [
 	"sidebar",
 	"goTop",
 	"ads",
+	"cursor",
 	"dropdown",
 	"theme",
-	"cursor",
 	"filter",
 	"search",
 	// "sound",
@@ -13,10 +13,9 @@ const scriptList = [
 ];
 
 window.onload = function() {
-	const body = document.getElementsByTagName('body')[0];
 	const scriptsCreate = document.createElement('div');
 	scriptsCreate.setAttribute('id','script')
-	body.insertBefore(scriptsCreate, body.children[0]);
+	document.querySelector("body").insertBefore(scriptsCreate, document.querySelector("body").children[0]);
 
 	for(let script of scriptList) {
 		var scriptCreate = document.createElement('script');

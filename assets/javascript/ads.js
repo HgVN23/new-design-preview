@@ -15,7 +15,7 @@ const ads = `
 const adsCreate = document.createElement('div');
 adsCreate.classList.add('contentBox');
 adsCreate.innerHTML = ads;
-document.getElementsByTagName('body')[0].appendChild(adsCreate);
+document.querySelector("body").appendChild(adsCreate);
 
 for (var i = 0; i < 3; i++)
 	(adsbygoogle = window.adsbygoogle || []).push({});
