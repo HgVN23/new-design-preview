@@ -2,13 +2,13 @@ const scriptList = [
 	"header",
 	"sidebar",
 	"goTop",
+	"ads",
+	"dropdown",
 	"theme",
 	"cursor",
-	"dropdown",
 	"filter",
 	"search",
 	// "sound",
-	"ads",
 	"footer"
 ];
 

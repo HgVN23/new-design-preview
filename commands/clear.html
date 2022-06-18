@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../assets/media/logo/logo_wiki.png">
+
+	<!-- Primary Meta Tags -->
+	<title>/clear | MCBE Command Wiki VN by Hg</title>
+	<meta name="title" content="/clear | MCBE Command Wiki VN by Hg">
+	<meta name="description" content="Xóa item được chọn hoặc toàn bộ trong kho đồ của Player">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://hgvn23.github.io/commands/clear">
+	<meta property="og:title" content="/clear | MCBE Command Wiki VN by Hg">
+	<meta property="og:description" content="Xóa item được chọn hoặc toàn bộ trong kho đồ của Player">
+	<meta property="og:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/clear.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://hgvn23.github.io/commands/clear">
+	<meta property="twitter:title" content="/clear | MCBE Command Wiki VN by Hg">
+	<meta property="twitter:description" content="Xóa item được chọn hoặc toàn bộ trong kho đồ của Player">
+	<meta property="twitter:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/clear.png">
+
+	<!-- CSS/Script -->
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script src="../assets/javascript/scripts.js"></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2430509461017367" crossorigin="anonymous"></script>
+</head>
+<body class="themeDark">
+<main>
+	<article class="content">
+		<h1 class="contentHeader">/clear</h1>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconCongDung"></div>
+				<h2 class="contentTitle">Công dụng</h2>
+			</div>
+			<p class="contentText">Xóa item được chọn hoặc toàn bộ trong kho đồ của Player</p>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconDoiTuong"></div>
+				<h2 class="contentTitle">Đối tượng có thể dùng Command</h2>
+			</div>
+			<p class="contentText">Player có OP</p>
+			<p class="contentText">Chủ Map</p>
+			<p class="contentText">Addon</p>
+			<p class="contentText"><a class="textLink" href="../thongTinLienQuan/npc.html">NPC</p>
+			<p class="contentText"><a class="textLink" href="../thongTinLienQuan/commandBlock.html">Command Block</a></p>
+			<p class="contentText"><a class="textLink" href="execute.html">/execute</a></p>
+			<p class="contentText"><a class="textLink" href="function.html">/function</a></p>
+			<p class="contentText"><a class="textLink" href="gametest.html">/gametest</a></p>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconCuPhap"></div>
+				<h2 class="contentTitle">Cú pháp</h2>
+			</div>
+			<div>
+				<p class="contentText dropdown">/clear [player: target] [itemName: Item] [data: int] [maxCount: int]</p>
+				<div class="dropdownStart dropdownHide"><div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;player: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a>
+						<p class="contentText">Chỉ được chọn mục tiêu là Player</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">[itemName: Item]</code> là id Item
+						<p class="contentText">Danh sách Id sẽ hiện khi viết Command trên Chat</p>
+						<p class="contentText">Mặc định là toàn bộ Id Item nếu bỏ qua thành phần này</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">[data: int]</code> là dữ liệu Item
+						<p class="contentText">Mặc định là <code class="textSyntax">-1</code> (tất cả Data) nếu bỏ qua thành phần này</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">[maxCount: int]</code> là số lượng Item
+						<p class="contentText">Mặc định là toàn bộ số lượng theo Id Item nếu bỏ qua thành phần này</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textCommand">/clear Hg diamond 0 1</code> là id Item
+						<p class="contentText">Hg sẽ bị xóa 1 Diamond có Data 0</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textCommand">/clear Hg wool 14 2</code> là id Item
+						<p class="contentText">Hg sẽ bị xóa 2 Red Wool (Data 14 là màu đỏ)</p>
+					</div>
+					<div class="dropdownEnd"></div>
+				</div></div>
+			</div>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconLuuY"></div>
+				<h2 class="contentTitle">Lưu ý</h2>
+			</div>
+			<p class="contentText">Command vẫn sẽ hoạt động kể cả khi số lượng Item trong kho đồ ít hơn số lượng clear trong Command, kể cả trong kho đồ Player không có</p>
+			<p class="contentText"><code class="textSyntax">[maxCount: int]</code> = <code class="textSyntax">0</code> thì Command vẫn sẽ hoạt động nhưng không có Item nào bị xóa</p>
+		</section>
+	</article>
+</main>
+</body>

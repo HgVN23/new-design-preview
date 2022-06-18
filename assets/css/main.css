@@ -411,6 +411,7 @@
 	}
 	.dropdownText {
 		margin-left: 18px;
+		display: block;
 		position: relative;
 	}
 	.dropdownText::before {
@@ -447,7 +448,7 @@
 		background-color: var(--bg);
 		border: var(--border);
 		border-width: 1px;
-		padding: 1px 4px;
+		padding: 2px 4px;
 		/*line-height: 23px;*/
 	}
 	.textCommand {
