@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../assets/media/logo/logo_wiki.png">
+
+	<!-- Primary Meta Tags -->
+	<title>/damage | MCBE Command Wiki VN by Hg</title>
+	<meta name="title" content="/damage | MCBE Command Wiki VN by Hg">
+	<meta name="description" content="Gây sát thương cho Entity (ngoại trừ Item và các vật ném, đạn bay)">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://hgvn23.github.io/commands/damage">
+	<meta property="og:title" content="/damage | MCBE Command Wiki VN by Hg">
+	<meta property="og:description" content="Gây sát thương cho Entity (ngoại trừ Item và các vật ném, đạn bay)">
+	<meta property="og:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/damage.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://hgvn23.github.io/commands/damage">
+	<meta property="twitter:title" content="/damage | MCBE Command Wiki VN by Hg">
+	<meta property="twitter:description" content="Gây sát thương cho Entity (ngoại trừ Item và các vật ném, đạn bay)">
+	<meta property="twitter:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/damage.png">
+
+	<!-- CSS/Script -->
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<link rel="stylesheet" href="../assets/css/image.css">
+	<link rel="stylesheet" href="../assets/css/table.css">
+	<script src="../assets/javascript/scripts.js"></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2430509461017367" crossorigin="anonymous"></script>
+</head>
+<body class="themeDark">
+<main>
+	<article class="content">
+		<h1 class="contentHeader">/damage</h1>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconCongDung"></div>
+				<h2 class="contentTitle">Công dụng</h2>
+			</div>
+			<p class="contentText">Gây sát thương cho Entity (ngoại trừ Item và các vật ném, đạn bay)</p>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconDoiTuong"></div>
+				<h2 class="contentTitle">Đối tượng có thể dùng Command</h2>
+			</div>
+			<p class="contentText">Player có OP</p>
+			<p class="contentText">Chủ Map</p>
+			<p class="contentText">Addon</p>
+			<a class="contentText textLink" href="../thongTinLienQuan/npc.html">NPC</a>
+			<a class="contentText textLink" href="execute.html">/execute</a></p>
+			<a class="contentText textLink" href="function.html">/function</a></p>
+			<a class="contentText textLink" href="gametest.html">/gametest</a></p>
+			<a class="contentText textLink" href="../thongTinLienQuan/commandBlock.html">Command Block</a></p>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconCuPhap"></div>
+				<h2 class="contentTitle">Cú pháp</h2>
+			</div>
+			<div>
+				<p class="contentText dropdown">/damage &lt;target: target&gt; &lt;amount: int&gt; &lt;cause: DamageCause&gt; entity &lt;damager: target&gt;</p>
+				<div class="dropdownStart dropdownHide"><div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;target: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a> nhận sát thương
+						<p class="contentText">Mục tiêu là Entity (ngoại trừ Item và các vật ném, đạn bay)</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;amount: int&gt;</code> là lượng sát thương
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;cause: DamageCause&gt;</code> là loại sát thương bị nhận
+						<a class="contentText textLink" href="../danhSachId/damageId.html">Danh sách</a>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">entity</code> là thực thể
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;damager: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a> gây sát thương
+						<p class="contentText">Mục tiêu là Entity</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textCommand">/damage Hg 20 entity_attack entity @e[type=cow]</code>
+						<p class="contentText">Hg sẽ nhận 20 sát thương bị tấn công bởi Entity, cụ thể bị tấn công bởi Cow</p>
+					</div>
+					<div class="dropdownEnd"></div>
+				</div></div>
+			</div>
+			<div>
+				<p class="contentText dropdown">/damage &lt;target: target&gt; &lt;amount: int&gt; [cause: DamageCause]</p>
+				<div class="dropdownStart dropdownHide"><div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;target: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a> nhận sát thương
+						<p class="contentText">Mục tiêu là Entity (ngoại trừ Item và các vật ném, đạn bay)</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;amount: int&gt;</code> là lượng sát thương
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">[cause: DamageCause]</code> là loại sát thương bị nhận
+						<a class="contentText textLink" href="../danhSachId/damageId.html">Danh sách</a>
+						<p class="contentText">Mặc định là <code class="textSyntax">...</code> nếu bỏ qua thành phần này</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textCommand">/damage Hg 20 lightning</code>
+						<p class="contentText">Hg sẽ nhận 20 sát thương bởi sét</p>
+					</div>
+					<div class="dropdownEnd"></div>
+				</div></div>
+			</div>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconLuuY"></div>
+				<h2 class="contentTitle">Lưu ý</h2>
+			</div>
+			<p class="contentText"><code class="textCommand">/difficulty peaceful</code> vô hiệu hóa <code class="textCommand">/damage</code> lên Player</p>
+			<div>
+				<p class="contentText dropdown">1 vài <a class="textLink" href="gamerule.html">/gamerule</a> có <code class="textSyntax">false</code> sẽ khiến 1 vài <code class="textSyntax">&lt;cause: DamageCause&gt;</code> không hoạt động được</p>
+				<div class="dropdownHide">
+					<table>
+						<tr>
+							<th>/gamerule có false</th>
+							<th>&lt;cause: DamageCause&gt;</th>
+						</tr>
+						<tr>
+							<td><code class="textSyntax">drowningdamage</code></td>
+							<td><code class="textSyntax">drowning</code></td>
+						</tr>
+						<tr>
+							<td><code class="textSyntax">falldamage</code></td>
+							<td><code class="textSyntax">fall</code></td>
+						</tr>
+						<tr>
+							<td><code class="textSyntax">firedamage</code></td>
+							<td><code class="textSyntax">fire</code>, <code class="textSyntax">fire_tick</code>, <code class="textSyntax">lava</code>, <code class="textSyntax">magma</code></td>
+						</tr>
+						<tr>
+							<td><code class="textSyntax">freezedamage</code></td>
+							<td><code class="textSyntax">freezing</code></td>
+						</tr>
+						<tr>
+							<td><code class="textSyntax">pvp</code></td>
+							<td><code class="textSyntax">entity_attack</code> bởi Player</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div>
+				<p class="contentText dropdown">Mục tiêu bị sát thương sẽ knockback nếu dùng <code class="textSyntax">/damage &lt;target: target&gt; &lt;amount: int&gt; &lt;cause: DamageCause&gt; entity &lt;damager: target&gt;</code></p>
+				<div class="dropdownStart dropdownHide"><div>
+					<div class="dropdownText">
+						<code class="textCommand">/damage @e[name=b] 1 anvil entity @e[name=a]</code>
+						<p class="contentText">Ảnh minh họa hướng của knockback</p>
+					<div class="image imageDamage"></div>
+					</div>
+					<div class="dropdownEnd"></div>
+				</div></div>
+			</div>
+			<div>
+				<p class="contentText dropdown">Luật nhận và không nhận sát thương của Entity không được áp dụng</p>
+				<div class="dropdownStart dropdownHide"><div>
+					<div class="dropdownText">
+						<code class="textCommand">/damage @e[type=blaze] 20 fire</code>
+						<p class="contentText">Blaze vẫn bị nhận sát thương dù có khả năng chống cháy</p>
+					</div>
+					<div class="dropdownEnd"></div>
+				</div></div>
+			</div>
+		</section>
+	</article>
+</main>
+</body>

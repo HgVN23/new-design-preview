@@ -1,14 +1,14 @@
 const scriptList = [
-	"header",
-	"sidebar",
-	"goTop",
 	"ads",
-	"cursor",
-	"dropdown",
+	"header",
 	"theme",
 	"filter",
 	"search",
 	// "sound",
+	"sidebar",
+	"goTop",
+	"cursor",
+	"dropdown",
 	"footer"
 ];
 
