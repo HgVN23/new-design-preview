@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../assets/media/logo/logo_wiki.png">
+
+	<!-- Primary Meta Tags -->
+	<title>/effect | MCBE Command Wiki VN by Hg</title>
+	<meta name="title" content="/effect | MCBE Command Wiki VN by Hg">
+	<meta name="description" content="Thêm hoặc xóa hiệu ứng của Mob">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://hgvn23.github.io/commands/effect">
+	<meta property="og:title" content="/effect | MCBE Command Wiki VN by Hg">
+	<meta property="og:description" content="Thêm hoặc xóa hiệu ứng của Mob">
+	<meta property="og:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/effect.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://hgvn23.github.io/commands/effect">
+	<meta property="twitter:title" content="/effect | MCBE Command Wiki VN by Hg">
+	<meta property="twitter:description" content="Thêm hoặc xóa hiệu ứng của Mob">
+	<meta property="twitter:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/effect.png">
+
+	<!-- CSS/Script -->
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script src="../assets/javascript/scripts.js"></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2430509461017367" crossorigin="anonymous"></script>
+</head>
+<body class="themeDark">
+<main>
+	<article class="content">
+		<h1 class="contentHeader">/effect</h1>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconCongDung"></div>
+				<h2 class="contentTitle">Công dụng</h2>
+			</div>
+			<p class="contentText">Thêm hoặc xóa hiệu ứng của Mob</p>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconDoiTuong"></div>
+				<h2 class="contentTitle">Đối tượng có thể dùng Command</h2>
+			</div>
+			<p class="contentText">Player có OP</p>
+			<p class="contentText">Chủ Map</p>
+			<p class="contentText">Addon</p>
+			<a class="contentText textLink" href="../thongTinLienQuan/npc.html">NPC</a>
+			<a class="contentText textLink" href="execute.html">/execute</a>
+			<a class="contentText textLink" href="function.html">/function</a>
+			<a class="contentText textLink" href="gametest.html">/gametest</a>
+			<a class="contentText textLink" href="../thongTinLienQuan/commandBlock.html">Command Block</a>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconCuPhap"></div>
+				<h2 class="contentTitle">Cú pháp</h2>
+			</div>
+			<div>
+				<p class="contentText dropdown">/effect &lt;player: target&gt; &lt;effect: Effect&gt; [seconds: int] [amplifier: int] [hideParticles: Boolean]</p>
+				<div class="dropdownStart dropdownHide"><div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;player: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a>
+						<p class="contentText">Chỉ được chọn mục tiêu là Mob</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;effect: Effect&gt;</code> là id của hiệu ứng
+						<a class="contentText textLink" href="../danhSachId/effectId.html" target="_blank">Danh sách</a>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">[seconds: int]</code> là thời gian tồn tại của Effect
+						<p class="contentText">Mặc định là <code class="textSyntax">30</code> nếu bỏ quả thành phần này</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">[amplifier: int]</code> là cấp độ của Effect
+						<p class="contentText">Mặc định là <code class="textSyntax">0</code> nếu bỏ quả thành phần này</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">[hideParticles: Boolean]</code> là ẩn hạt hiệu ứng xung quanh Entity
+						<p class="contentText dropdown">Danh sách</p>
+						<div class="dropdownStart dropdownHide"><div>
+							<p class="dropdownText"><code class="textSyntax">true</code> là có</p>
+							<p class="dropdownText"><code class="textSyntax">false</code> là không</p>
+							<div class="dropdownEnd"></div>
+						</div></div>
+						<p class="contentText">Mặc định là <code class="textSyntax">false</code> nếu bỏ qua thành phần này</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">/effect Hg haste 10 0 true</code>
+						<p class="contentText">Hg có đào nhanh cấp 1 với thời gian 10 giây không có hạt hiệu ứng xung quanh</p>
+					</div>
+					<div class="dropdownEnd"></div>
+				</div></div>
+			</div>
+			<div>
+				<p class="contentText dropdown">/effect &lt;player: target&gt; clear</p>
+				<div class="dropdownStart dropdownHide"><div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;player: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a>
+						<p class="contentText">Chỉ được chọn mục tiêu là Mob</p>
+					</div>
+					<p class="dropdownText"><code class="textSyntax">clear</code> là loại bỏ tất cả Effect</p>
+					<div class="dropdownText">
+						<code class="textSyntax">/effect Hg clear</code>
+						<p class="contentText">Hg mất hết Effect</p>
+					</div>
+					<div class="dropdownEnd"></div>
+				</div></div>
+			</div>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconLuuY"></div>
+				<h2 class="contentTitle">Lưu ý</h2>
+			</div>
+			<p class="contentText">Nếu bạn đang có Effect thời gian và cấp độ nhỏ hơn thì sẽ bị Effect cùng loại có thời gian và cấp độ lớn hơn ghi đèd</p>
+			<p class="contentText">Cấp độ bắt đầu từ 0 là level 1, 1 là level 2, ...</p>
+
+			<p class="contentText dropdown"><code class="textSyntax">[seconds: int]</code> = <code class="textSyntax">0</code> thì loại bỏ Effect đó</p>
+			<div class="dropdownStart dropdownHide"><div>
+				<div class="dropdownText">
+					<code class="textCommand">/effect Hg haste 0</code>
+					<p class="contentText">Hg sẽ bị mất haste, các Effect khác sẽ vẫn tồn tại</p>
+				</div>
+				<div class="dropdownEnd"></div>
+			</div></div>
+		</section>
+	</article>
+</main>
+</body>

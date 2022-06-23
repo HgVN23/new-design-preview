@@ -4,6 +4,10 @@
 		font-family: minecraft;
 		src: url(../fonts/Minecrafter.Reg.ttf);
 	}
+	@font-face {
+		font-family: scp;
+		src: url(../fonts/SourceCodePro-Regular.ttf);
+	}
 	:root {
 		--border: 2px solid #525252;
 		--bg: #171717;
@@ -18,7 +22,7 @@
 		margin: 0;
 		padding: 0;
 		color: white;
-		font-family: sans-serif;
+		font-family: scp;
 		list-style: none;
 		text-decoration: none;
 		transition: .3s;
@@ -431,6 +435,7 @@
 		background-color: var(--bg);
 		border: var(--border);
 		border-width: 1px;
+		border-radius: 3px;
 		padding: 1px 4px;
 		user-select: text;
 	}
@@ -497,7 +502,7 @@
 	.dropdownText {
 		margin-top: 16px;
 		display: block;
-		letter-spacing: 0.6px;
+		/*letter-spacing: 0.6px;*/
 		line-height: 1.6;
 	}
 	/*.contentText::before {

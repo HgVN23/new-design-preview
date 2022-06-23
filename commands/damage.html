@@ -68,16 +68,12 @@
 						<code class="textSyntax">&lt;target: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a> nhận sát thương
 						<p class="contentText">Mục tiêu là Entity (ngoại trừ Item và các vật ném, đạn bay)</p>
 					</div>
-					<div class="dropdownText">
-						<code class="textSyntax">&lt;amount: int&gt;</code> là lượng sát thương
-					</div>
+					<p class="dropdownText"><code class="textSyntax">&lt;amount: int&gt;</code> là lượng sát thương</p>
 					<div class="dropdownText">
 						<code class="textSyntax">&lt;cause: DamageCause&gt;</code> là loại sát thương bị nhận
 						<a class="contentText textLink" href="../danhSachId/damageId.html">Danh sách</a>
 					</div>
-					<div class="dropdownText">
-						<code class="textSyntax">entity</code> là thực thể
-					</div>
+					<p class="dropdownText"><code class="textSyntax">entity</code> là thực thể</p>
 					<div class="dropdownText">
 						<code class="textSyntax">&lt;damager: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a> gây sát thương
 						<p class="contentText">Mục tiêu là Entity</p>
@@ -102,7 +98,7 @@
 					<div class="dropdownText">
 						<code class="textSyntax">[cause: DamageCause]</code> là loại sát thương bị nhận
 						<a class="contentText textLink" href="../danhSachId/damageId.html">Danh sách</a>
-						<p class="contentText">Mặc định là <code class="textSyntax">...</code> nếu bỏ qua thành phần này</p>
+						<p class="contentText">Mặc định là <code class="textSyntax">none</code> nếu bỏ qua thành phần này</p>
 					</div>
 					<div class="dropdownText">
 						<code class="textCommand">/damage Hg 20 lightning</code>
@@ -150,10 +146,10 @@
 				</div>
 			</div>
 			<div>
-				<p class="contentText dropdown">Mục tiêu bị sát thương sẽ knockback nếu dùng <code class="textSyntax">/damage &lt;target: target&gt; &lt;amount: int&gt; &lt;cause: DamageCause&gt; entity &lt;damager: target&gt;</code></p>
+				<p class="contentText dropdown">Mục tiêu bị sát thương sẽ nhận knockback nếu dùng <code class="textSyntax">/damage &lt;target: target&gt; &lt;amount: int&gt; &lt;cause: DamageCause&gt; entity &lt;damager: target&gt;</code></p>
 				<div class="dropdownStart dropdownHide"><div>
 					<div class="dropdownText">
-						<code class="textCommand">/damage @e[name=b] 1 anvil entity @e[name=a]</code>
+						<code class="textCommand">/damage @e[name=B] 1 anvil entity @e[name=A]</code>
 						<p class="contentText">Ảnh minh họa hướng của knockback</p>
 					<div class="image imageDamage"></div>
 					</div>

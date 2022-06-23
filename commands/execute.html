@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../assets/media/logo/logo_wiki.png">
+
+	<!-- Primary Meta Tags -->
+	<title>/execute | MCBE Command Wiki VN by Hg</title>
+	<meta name="title" content="/execute | MCBE Command Wiki VN by Hg">
+	<meta name="description" content="Khiến Entity thực hiện Command">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://hgvn23.github.io/commands/execute">
+	<meta property="og:title" content="/execute | MCBE Command Wiki VN by Hg">
+	<meta property="og:description" content="Khiến Entity thực hiện Command">
+	<meta property="og:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/execute.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://hgvn23.github.io/commands/execute">
+	<meta property="twitter:title" content="/execute | MCBE Command Wiki VN by Hg">
+	<meta property="twitter:description" content="Khiến Entity thực hiện Command">
+	<meta property="twitter:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/execute.png">
+	
+	<!-- CSS/Script -->
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script src="../assets/javascript/scripts.js"></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2430509461017367" crossorigin="anonymous"></script>
+</head>
+<body class="themeDark">
+<main>
+	<article class="content">
+		<h1 class="contentHeader">/execute</h1>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconCongDung"></div>
+				<h2 class="contentTitle">Công dụng</h2>
+			</div>
+			<p class="contentText">Khiến Entity thực hiện Command</p>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconDoiTuong"></div>
+				<h2 class="contentTitle">Đối tượng có thể dùng Command</h2>
+			</div>
+			<p class="contentText">Player có OP</p>
+			<p class="contentText">Chủ Map</p>
+			<p class="contentText">Addon</p>
+			<a class="contentText textLink" href="../thongTinLienQuan/npc.html">NPC</a>
+			<a class="contentText textLink" href="execute.html">/execute</a>
+			<a class="contentText textLink" href="function.html">/function</a>
+			<a class="contentText textLink" href="gametest.html">/gametest</a>
+			<a class="contentText textLink" href="../thongTinLienQuan/commandBlock.html">Command Block</a>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconCuPhap"></div>
+				<h2 class="contentTitle">Cú pháp</h2>
+			</div>
+			<div>
+				<p class="contentText dropdown">/execute &lt;origin: target&gt; &lt;position: x y z&gt; &lt;command: command&gt;</p>
+				<div class="dropdownStart dropdownHide"><div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;origin: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a>
+						<p class="contentText">Mục tiêu là Entity</p>
+					</div>
+					<p class="dropdownText"><code class="textSyntax">&lt;position: x y z&gt;</code> là tọa độ</p>
+					<p class="dropdownText"><code class="textSyntax">&lt;command: command&gt;</code> là Command</p>
+					<div class="dropdownText">
+						<code class="textCommand">/execute Hg ~~~ setblock ~~-1 ~ dirt</code>
+						<p class="contentText">Hg sẽ setblock Dirt dữ liệu 0 dưới chân</p>
+					</div>
+					<div class="dropdownEnd"></div>
+				</div></div>
+			</div>
+			<div>
+				<p class="contentText dropdown">/execute &lt;origin: target&gt; &lt;position: x y z&gt; detect &lt;detectPos: x y z&gt; &lt;block: Block&gt; &lt;data: int&gt; &lt;command: command&gt;</p>
+				<div class="dropdownStart dropdownHide"><div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;origin: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a>
+						<p class="contentText">Mục tiêu là Entity</p>
+					</div>
+					<p class="dropdownText"><code class="textSyntax">&lt;position: x y z&gt;</code> là tọa độ</p>
+					<p class="dropdownText"><code class="textSyntax">detect</code> là kiểm tra</p>
+					<p class="dropdownText"><code class="textSyntax">&lt;detectPos: x y z&gt;</code> là tọa độ kiểm tra</p>
+					<p class="dropdownText"><code class="textSyntax">&lt;block: Block&gt;</code> là id Block</p>
+					<p class="dropdownText"><code class="textSyntax">&lt;data: int&gt;</code> là dữ liệu Block</p>
+					<p class="dropdownText"><code class="textSyntax">&lt;command: command&gt;</code> là Command</p>
+					<div class="dropdownText">
+						<code class="textCommand">/execute Hg ~~~ detect stone 0 setblock ~~-1 ~ dirt</code>
+						<p class="contentText">Hg có Stone dữ liệu bằng 0 dưới chân sẽ bị setblock Dirt dữ liệu 0 dưới chân, nếu không có thì không bị setblock Dirt dưới chân</p>
+					</div>
+					<div class="dropdownEnd"></div>
+				</div></div>
+			</div>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconLuuY"></div>
+				<h2 class="contentTitle">Lưu ý</h2>
+			</div>
+			<p class="contentText"><code class="textSyntax">&lt;position: x y z&gt;</code> nên để mặc định là <code class="textSyntax">~~~</code> cho mọi <code class="textSyntax">/execute</code> <span class="textNote">Đây chỉ là lời khuyên của Hg</span></p>
+			<p class="contentText"><code class="textSyntax">&lt;block: Block&gt;</code> = <code class="textSyntax">-1</code> là mọi loại Block chung id</p>
+		</section>
+	</article>
+</main>
+</body>
