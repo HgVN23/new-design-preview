@@ -36,5 +36,5 @@ window.onload = function() {
 			// scriptCreate.src = `assets/javascript/${script}.js`;
 			document.getElementById("script").appendChild(scriptCreate);
 		};
-	}, 100);
+	}, 300);
 }
