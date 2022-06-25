@@ -6,23 +6,23 @@
 	<link rel="icon" href="../assets/media/logo/logo_wiki.png">
 
 	<!-- Primary Meta Tags -->
-	<title>/... | MCBE Command Wiki VN by Hg</title>
-	<meta name="title" content="/... | MCBE Command Wiki VN by Hg">
-	<meta name="description" content="...">
+	<title>/msg | MCBE Command Wiki VN by Hg</title>
+	<meta name="title" content="/msg | MCBE Command Wiki VN by Hg">
+	<meta name="description" content="Gửi Chat riêng cho Player khác">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://hgvn23.github.io/commands/">
-	<meta property="og:title" content="/... | MCBE Command Wiki VN by Hg">
-	<meta property="og:description" content="...">
-	<meta property="og:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/....png">
+	<meta property="og:url" content="https://hgvn23.github.io/commands/msg">
+	<meta property="og:title" content="/msg | MCBE Command Wiki VN by Hg">
+	<meta property="og:description" content="Gửi Chat riêng cho Player khác">
+	<meta property="og:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/msg.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://hgvn23.github.io/commands/">
-	<meta property="twitter:title" content="/... | MCBE Command Wiki VN by Hg">
-	<meta property="twitter:description" content="...">
-	<meta property="twitter:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/....png">
+	<meta property="twitter:url" content="https://hgvn23.github.io/commands/msg">
+	<meta property="twitter:title" content="/msg | MCBE Command Wiki VN by Hg">
+	<meta property="twitter:description" content="Gửi Chat riêng cho Player khác">
+	<meta property="twitter:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/msg.png">
 
 	<!-- CSS/Script -->
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -32,13 +32,13 @@
 <body class="themeDark">
 <main>
 	<article class="content">
-		<h1 class="contentHeader">/...</h1>
+		<h1 class="contentHeader">/msg</h1>
 		<section class="contentBox">
 			<div class="contentGroup">
 				<div class="contentIcon iconCongDung"></div>
 				<h2 class="contentTitle">Công dụng</h2>
 			</div>
-			<p class="contentText"></p>
+			<p class="contentText">Gửi Chat riêng cho Player khác</p>
 		</section>
 		<section class="contentBox">
 			<div class="contentGroup">
@@ -61,15 +61,19 @@
 				<h2 class="contentTitle">Cú pháp</h2>
 			</div>
 			<div>
-				<p class="contentText dropdown"></p>
+				<p class="contentText dropdown">/msg &lt;target: target&gt; &lt;message: message&gt;</p>
 				<div class="dropdownStart dropdownHide"><div>
 					<div class="dropdownText">
-						<code class="textSyntax">&lt;&gt;</code>
-						<p class="contentText dropdown">Danh sách</p>
-						<div class="dropdownStart dropdownHide"><div>
-							<p class="dropdownText"></p>
-							<div class="dropdownEnd"></div>
-						</div></div>
+						<code class="textSyntax">&lt;target: target&gt;</code> là <a class="textLink" href="../danhSachId/target.html" target="_blank">mục tiêu</a>
+						<p class="contentText">Chỉ được chọn mục tiêu là Player</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;message: message&gt;</code> là đoạn Chat
+						<p class="contentText">Mặc định là không đoạn Chat nếu bỏ qua thành phần này</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textCommand">/msg Hg Hello</code>
+						<p class="contentText">Hg sẽ nhận được Chat của bạn</p>
 					</div>
 					<div class="dropdownEnd"></div>
 				</div></div>
@@ -80,7 +84,7 @@
 				<div class="contentIcon iconLuuY"></div>
 				<h2 class="contentTitle">Lưu ý</h2>
 			</div>
-			<p class="contentText"></p>
+			<p class="contentText">Player có OP sẽ nhìn được Chat riêng</p>
 		</section>
 	</article>
 </main>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../assets/media/logo/logo_wiki.png">
+
+	<!-- Primary Meta Tags -->
+	<title>/mobevent | MCBE Command Wiki VN by Hg</title>
+	<meta name="title" content="/mobevent | MCBE Command Wiki VN by Hg">
+	<meta name="description" content="Điều khiển Event lớn">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://hgvn23.github.io/commands/mobevent">
+	<meta property="og:title" content="/mobevent | MCBE Command Wiki VN by Hg">
+	<meta property="og:description" content="Điều khiển Event lớn">
+	<meta property="og:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/mobevent.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://hgvn23.github.io/commands/mobevent">
+	<meta property="twitter:title" content="/mobevent | MCBE Command Wiki VN by Hg">
+	<meta property="twitter:description" content="Điều khiển Event lớn">
+	<meta property="twitter:image" content="https://raw.githubusercontent.com/HgVN23/HgVN23.github.io/main/assets/media/thumbnail/commands/mobevent.png">
+
+	<!-- CSS/Script -->
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script src="../assets/javascript/scripts.js"></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2430509461017367" crossorigin="anonymous"></script>
+</head>
+<body class="themeDark">
+<main>
+	<article class="content">
+		<h1 class="contentHeader">/mobevent</h1>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconCongDung"></div>
+				<h2 class="contentTitle">Công dụng</h2>
+			</div>
+			<p class="contentText">Điều khiển Event lớn</p>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconDoiTuong"></div>
+				<h2 class="contentTitle">Đối tượng có thể dùng Command</h2>
+			</div>
+			<p class="contentText">Player có OP</p>
+			<p class="contentText">Chủ Map</p>
+			<p class="contentText">Addon</p>
+			<a class="contentText textLink" href="../thongTinLienQuan/npc.html">NPC</a>
+			<a class="contentText textLink" href="execute.html">/execute</a>
+			<a class="contentText textLink" href="function.html">/function</a>
+			<a class="contentText textLink" href="gametest.html">/gametest</a>
+			<a class="contentText textLink" href="../thongTinLienQuan/commandBlock.html">Command Block</a>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconCuPhap"></div>
+				<h2 class="contentTitle">Cú pháp</h2>
+			</div>
+			<div>
+				<p class="contentText dropdown">/mobevent &lt;event: MobEvent&gt; [value: Boolean]</p>
+				<div class="dropdownStart dropdownHide"><div>
+					<div class="dropdownText">
+						<code class="textSyntax">&lt;event: MobEvent&gt;</code> là id Event lớn
+						<p class="contentText dropdown">Danh sách</p>
+						<div class="dropdownStart dropdownHide"><div>
+							<p class="dropdownText"><code class="textSyntax">events_enabled</code> là Event lớn hoạt động</p>
+							<p class="dropdownText"><code class="textSyntax">minecraft:ender_dragon_event</code> là Event hồi sinh Ender Dragon</p>
+							<p class="dropdownText"><code class="textSyntax">minecraft:pillager_patrols_event</code> là Event Raid khi Player có Bad Omen gần Village</p>
+							<p class="dropdownText"><code class="textSyntax">minecraft:wandering_trader_event</code> là Event Spawn Wandering Trader theo đợt</p>
+							<div class="dropdownEnd"></div>
+						</div></div>
+					</div>
+					<div class="dropdownText">
+						<code class="textSyntax">[value: Boolean]</code> là trạng thái
+						<p class="contentText dropdown">Danh sách</p>
+						<div class="dropdownStart dropdownHide"><div>
+							<p class="dropdownText"><code class="textSyntax">true</code> là bật</p>
+							<p class="dropdownText"><code class="textSyntax">false</code> là tắt</p>
+							<div class="dropdownEnd"></div>
+						</div></div>
+						<p class="contentText">Nếu bạn bỏ qua thành phần này thì Command sẽ thông báo trạng thái đang bật hoặc tắt</p>
+					</div>
+					<div class="dropdownText">
+						<code class="textCommand">/mobevent events_enabled false</code>
+						<p class="contentText">Mọi Event lớn sẽ bị tắt</p>
+					</div>
+					<div class="dropdownEnd"></div>
+				</div></div>
+			</div>
+		</section>
+		<section class="contentBox">
+			<div class="contentGroup">
+				<div class="contentIcon iconLuuY"></div>
+				<h2 class="contentTitle">Lưu ý</h2>
+			</div>
+			<p class="contentText">Nếu <code class="textSyntax">events_enabled</code> là <code class="textSyntax">false</code> thì các event còn lại sẽ không hoạt động kể cả có để là <code class="textSyntax">true</code></p>
+		</section>
+	</article>
+</main>
+</body>
