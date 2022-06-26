@@ -1,5 +1,8 @@
+.table {
+	margin-top: 16px;
+	overflow-x: scroll;
+}
 table {
-	width: 100%;
 	border-collapse: collapse;
 	font-size: 1rem;
 	line-height: 1.6;
