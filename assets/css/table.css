@@ -1,6 +1,6 @@
 .table {
 	margin-top: 16px;
-	overflow-x: scroll;
+	overflow-x: auto;
 }
 table {
 	border-collapse: collapse;

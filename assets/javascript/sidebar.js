@@ -116,10 +116,10 @@ const sidebar = `
 		<div class="sidebarDropdown">
 			<p class="contentText dropdown">Web Tool</p>
 			<div class="dropdownStart dropdownHide"><div>
-				<a class="dropdownText textLink" href="https://hgvn23.github.io/webTool/uuidV4Generator.html">Tạo UUID</a>
-				<a class="dropdownText textLink" href="https://hgvn23.github.io/webTool/glyph.html">Tra kí tự glyph</a>
-				<a class="dropdownText textLink" href="https://hgvn23.github.io/webTool/color.html">Hex -> Dec Color Code</a>
-				<a class="dropdownText textLink" href="https://hgvn23.github.io/webTool/dialogueGenerator.html">Tạo dialogue.json</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/webTool/uuidV4Gen.html">Tạo UUID v4</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/webTool/glyphSearch.html">Tìm kiếm Glyph</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/webTool/colorConvert.html">Chuyển đổi mã màu Hex sang Dec</a>
+				<a class="dropdownText textLink" href="https://hgvn23.github.io/webTool/dialogueGen.html">Tạo dialogue.json</a>
 				<div class="dropdownEnd"></div>
 			</div></div>
 		</div>
