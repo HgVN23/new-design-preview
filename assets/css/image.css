@@ -8,13 +8,13 @@
 }
 .imageRx {
 	content: url(../media/image/rx.png);
-	width: 40%;
-	height: 40%;
+	width: 60%;
+	height: 60%;
 }
 .imageRy {
 	content: url(../media/image/ry.png);
-	width: 40%;
-	height: 40%;
+	width: 60%;
+	height: 60%;
 }
 .imageCmdbUi {
 	content: url(../media/image/cmdb_ui.png);
