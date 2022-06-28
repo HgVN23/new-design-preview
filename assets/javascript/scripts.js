@@ -1,8 +1,7 @@
 const scriptListFirst = [
 	"header",
 	"ads",
-	"goTop",
-	"footer"
+	"goTop"
 ]
 
 const scriptListSecond = [
@@ -12,7 +11,8 @@ const scriptListSecond = [
 	"search",
 	// "sound",
 	"dropdown",
-	"cursor"
+	"cursor",
+	"footer"
 ];
 
 window.onload = function() {
